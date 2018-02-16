@@ -9,7 +9,7 @@ DEVICE=eth0
 NAME=eth0
 BOOTPROTO=none
 
-
+[root@cent1 ~]# cat /etc/sysconfig/network-scripts/ifcfg-br-ex
 DEVICE=br-ex
 BOOTPROTO=static
 ONBOOT=yes
