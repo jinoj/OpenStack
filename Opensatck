@@ -1,5 +1,7 @@
 yum install openvswitch -y
 
+cp /etc/sysconfig/network-scripts/ifcfg-eth0 /etc/sysconfig/network-scripts/ifcfg-br-ex
+
 [root@cent1 ~]# cat /etc/sysconfig/network-scripts/ifcfg-eth0
 TYPE=OVSPort
 ONBOOT=yes
