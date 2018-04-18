@@ -41,3 +41,6 @@ verify the OpenVswitch Configuration:
         Port "eth0"
             Interface "eth0"
     ovs_version: "2.7.3"
+
+# yum install hiera tar nc puppet openssh-clients rubygem-json -y
+# yum install *packstack* -y
